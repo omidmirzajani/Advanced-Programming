@@ -4,62 +4,59 @@ This repository contains my programming assignments for advanced programming cou
 Instractor: [Sauleh Eetemadi](http://sauleh.github.io/)
 
 [Cousre Website](http://sauleh.github.io/ap97)
-https://github.com/omidmirzajani/Advanced-Programming/tree/master/Assignments/A10
+
 # Assignments
 ## HW3 (Files and String methods)
   + [Document](https://github.com/omidmirzajani/Advanced-Programming/blob/master/Assignments/A3/Document/HW3_fa.pdf)
   + [Solution](https://github.com/omidmirzajani/Advanced-Programming/blob/master/Assignments/A3/Code)
 ## HW4 (Understanding a few notes in C#)
-  + [Document](https://github.com/omidmirzajani/AP97982/blob/master/A2/HW3.fa.pdf)
-  + [Solution](https://github.com/omidmirzajani/AP97982/blob/master/A2/A2)
+  + [Document](https://github.com/omidmirzajani/Advanced-Programming/blob/master/Assignments/A4/Document/HW4_fa.pdf)
+  + [Solution](https://github.com/omidmirzajani/Advanced-Programming/blob/master/Assignments/A4/Code)
 ## HW5 (Class and Objects)
-  + [Document](https://github.com/omidmirzajani/AP97982/blob/master/A3/HW5.fa.pdf)
-  + [Solution](https://github.com/omidmirzajani/AP97982/blob/master/A3/A3)
+  + [Document](https://github.com/omidmirzajani/Advanced-Programming/blob/master/Assignments/A5/Document/HW5_fa.pdf)
+  + [Solution](https://github.com/omidmirzajani/Advanced-Programming/blob/master/Assignments/A5/Code)
 ## HW6 (Value type and reference type)
-  + [Document](https://github.com/omidmirzajani/AP97982/blob/master/A6/HW6.fa.pdf)
-  + [Solution](https://github.com/omidmirzajani/AP97982/blob/master/A6/A6)
+  + [Document](https://github.com/omidmirzajani/Advanced-Programming/blob/master/Assignments/A6/Document/HW6_fa.pdf)
+  + [Solution](https://github.com/omidmirzajani/Advanced-Programming/blob/master/Assignments/A6/Code)
 ## HW7 (Interfaces)
-  + [Document](https://github.com/omidmirzajani/AP97982/blob/master/A7/HW7.fa.pdf)
-  + [Solution](https://github.com/omidmirzajani/AP97982/blob/master/A7/A7)
+  + [Document](https://github.com/omidmirzajani/Advanced-Programming/blob/master/Assignments/A7/Document/HW7_fa.pdf)
+  + [Solution](https://github.com/omidmirzajani/Advanced-Programming/blob/master/Assignments/A7/Code)
 ## HW8 (Operator overloading)
-  + [Document](https://github.com/omidmirzajani/AP97982/blob/master/A8/HW8.fa.pdf)
-  + [Solution](https://github.com/omidmirzajani/AP97982/blob/master/A8/A8)
+  + [Document](https://github.com/omidmirzajani/Advanced-Programming/blob/master/Assignments/A8/Document/HW8_fa.pdf)
+  + [Solution](https://github.com/omidmirzajani/Advanced-Programming/blob/master/Assignments/A8/Code)
 ## HW9 (Exception Handling)
-  + [Document](https://github.com/omidmirzajani/AP97982/blob/master/A9/HW9.fa.pdf)
-  + [Solution](https://github.com/omidmirzajani/AP97982/blob/master/A9/A9)
+  + [Document](https://github.com/omidmirzajani/Advanced-Programming/blob/master/Assignments/A9/Document/HW9_fa.pdf)
+  + [Solution](https://github.com/omidmirzajani/Advanced-Programming/blob/master/Assignments/A9/Code)
 ## HW10 (Operator overloading and .NET interfaces)
-  + [Document](https://github.com/omidmirzajani/AP97982/blob/master/A10/HW10.fa.pdf)
-  + [Solution](https://github.com/omidmirzajani/AP97982/blob/master/A10/A10)
+  + [Document](https://github.com/omidmirzajani/Advanced-Programming/blob/master/Assignments/A10/Document/HW10_fa.pdf)
+  + [Solution](https://github.com/omidmirzajani/Advanced-Programming/blob/master/Assignments/A10/Code)
 ## HW11 (Inheritance)
-  + [Document](https://github.com/omidmirzajani/AP97982/blob/master/A11/HW11.fa.pdf)
-  + [Solution](https://github.com/omidmirzajani/AP97982/blob/master/A11/A11)
+  + [Document](https://github.com/omidmirzajani/Advanced-Programming/blob/master/Assignments/A11/Document/HW11_fa.pdf)
+  + [Solution](https://github.com/omidmirzajani/Advanced-Programming/blob/master/Assignments/A11/Code)
 ## HW12 (LINQ)
-  + [Document](https://github.com/omidmirzajani/AP97982/blob/master/A12/HW12.fa.pdf)
-  + [Solution](https://github.com/omidmirzajani/AP97982/blob/master/A12/A12)
+  + [Document](https://github.com/omidmirzajani/Advanced-Programming/blob/master/Assignments/A12/Document/HW12_fa.pdf)
+  + [Solution](https://github.com/omidmirzajani/Advanced-Programming/blob/master/Assignments/A12/Code)
 ## HW13 (Thread and concurrency)
-  + [Document](https://github.com/omidmirzajani/AP97982/blob/master/A13/HW13.fa.pdf)
-  + [Solution](https://github.com/omidmirzajani/AP97982/blob/master/A13/A13)
+  + [Document](https://github.com/omidmirzajani/Advanced-Programming/blob/master/Assignments/A13/Document/HW13_fa.pdf)
+  + [Solution](https://github.com/omidmirzajani/Advanced-Programming/blob/master/Assignments/A13/Code)
 ## HW14 (State pattern)
-  + [Document](https://github.com/omidmirzajani/AP97982/blob/master/A14/HW14.fa.pdf)
-  + [Solution](https://github.com/omidmirzajani/AP97982/blob/master/A14/A14)
+  + [Document](https://github.com/omidmirzajani/Advanced-Programming/blob/master/Assignments/A14/Document/HW14_fa.pdf)
+  + [Solution](https://github.com/omidmirzajani/Advanced-Programming/blob/master/Assignments/A14/Code)
 
 # Exams
 + E1
-  + [Document](https://github.com/omidmirzajani/AP97982/blob/master/E1/E1.fa.pdf)
-  + [Solution](https://github.com/omidmirzajani/AP97982/blob/master/E1/E1)
-+ E1B
-  + [Document](https://github.com/omidmirzajani/AP97982/blob/master/E1B/E1B.fa.pdf)
-  + [Solution](https://github.com/omidmirzajani/AP97982/blob/master/E1B/E1B)
+  + [Document](https://github.com/omidmirzajani/Advanced-Programming/blob/master/Exams/Exam1/Document/Exam1_fa.pdf)
+  + [Solution](https://github.com/omidmirzajani/Advanced-Programming/blob/master/Exams/Exam1/Code)
 + E2
-  + [Document](https://github.com/omidmirzajani/AP97982/blob/master/E2/E2.fa.pdf)
-  + [Solution](https://github.com/omidmirzajani/AP97982/blob/master/E2/E2)
+    + [Document](https://github.com/omidmirzajani/Advanced-Programming/blob/master/Exams/Exam2/Document/Exam2_fa.pdf)
+  + [Solution](https://github.com/omidmirzajani/Advanced-Programming/blob/master/Exams/Exam2/Code)
 
 # Project
 Build a simple WPF application.
 
-### [Document](https://github.com/omidmirzajani/AP97982/blob/master/P1/final_project.pdf)
+### [Document](https://github.com/omidmirzajani/Advanced-Programming/blob/master/MathAnalyzer/Document/Math Analyzer.pdf)
 
-### [Source code](https://github.com/omidmirzajani/AP97982/blob/master/P1/P1)
+### [Solution](https://github.com/omidmirzajani/Advanced-Programming/blob/master/MathAnalyzer/Code)
 
 ## Features:
 1. Draw digram for polynomial functions
@@ -71,15 +68,15 @@ Build a simple WPF application.
 
 ### Screenshot 1
 <p align="center">
-  <img width="100%" src="https://github.com/omidmirzajani/AP97982/blob/master/ScreenShots/screenshot1.png?raw=true" alt="Math Analyzer screenshot1">
+  <img width="100%" src="https://github.com/omidmirzajani/Advanced-Programming/blob/master/MathAnalyzer/Screenshots/MathDiagram?raw=true" alt="Math Analyzer screenshot1">
 </p>
 
 ### Screenshot 2
 <p align="center">
-  <img width="100%" src="https://github.com/omidmirzajani/AP97982/blob/master/P1/screenshots/screenshot2.png?raw=true" alt="Math Analyzer screenshot2">
+  <img width="100%" src="https://github.com/omidmirzajani/Advanced-Programming/blob/master/MathAnalyzer/Screenshots/MathEquation?raw=true" alt="Math Analyzer screenshot2">
 </p>
 
 ### Screenshot 3
 <p align="center">
-  <img width="100%" src="https://github.com/omidmirzajani/AP97982/blob/master/P1/screenshots/screenshot3.png?raw=true" alt="Math Analyzer screenshot3">
+  <img width="100%" src="https://github.com/omidmirzajani/Advanced-Programming/blob/master/MathAnalyzer/Screenshots/TaylorSeries?raw=true" alt="Math Analyzer screenshot3">
 </p>
