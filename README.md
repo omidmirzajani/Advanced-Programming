@@ -54,7 +54,7 @@ Instractor: [Sauleh Eetemadi](http://sauleh.github.io/)
 # Project
 Build a simple WPF application.
 
-### [Document](https://github.com/omidmirzajani/Advanced-Programming/blob/master/MathAnalyzer/Document/Math Analyzer.pdf)
+### [Document](https://github.com/omidmirzajani/Advanced-Programming/blob/master/MathAnalyzer/Document/MathAnalyzer.pdf)
 
 ### [Solution](https://github.com/omidmirzajani/Advanced-Programming/blob/master/MathAnalyzer/Code)
 
