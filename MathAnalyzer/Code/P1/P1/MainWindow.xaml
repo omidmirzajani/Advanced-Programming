@@ -1,0 +1,65 @@
+﻿<Window x:Class="P1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:P1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Canvas x:Name="Main" HorizontalAlignment="Left" Height="386" Margin="10,10,0,0" VerticalAlignment="Top" Width="758">
+        <TabControl x:Name="TabItem" Height="345" Canvas.Left="26" Canvas.Top="10" Width="602" SelectionChanged="TabItem_SelectionChanged">
+            <TabItem Header="Draw Diagram">
+                <Grid Background="#FFE5E5E5">
+                    <Button Content="Draw" HorizontalAlignment="Left" Margin="10,5,0,0" VerticalAlignment="Top" Width="287" Height="32" Click="Draw_Click" />
+                    <Button Content="Clear" HorizontalAlignment="Left" Margin="324,5,0,0" VerticalAlignment="Top" Width="262" Height="32" Click="Clear_Click"/>
+                    <Canvas x:Name="DiagramCanvas" Margin="10,42,10,95" Background="White" Width="576" RenderTransformOrigin="0.57,0.997" Height="192" MouseWheel="DiagramCanvas_Scroll" MouseMove="Drag" >
+                        <TextBox Name="ox" Height="23" TextWrapping="Wrap" Text="0" Width="120" Visibility="Hidden"/>
+                        <TextBox Name="oy" Height="23" Canvas.Left="367" TextWrapping="Wrap" Text="0" Canvas.Top="105" Width="120" Visibility="Hidden"/>
+                    </Canvas>
+                    <TextBox Name="MaxY" HorizontalAlignment="Left" Height="23" Margin="159,237,0,0" TextWrapping="Wrap" Text="4" VerticalAlignment="Top" Width="65"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="5,239,0,0" TextWrapping="Wrap" Text="Min Y" VerticalAlignment="Top" Height="23" Width="53"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="122,237,0,0" TextWrapping="Wrap" Text="Max Y" VerticalAlignment="Top" Height="25"/>
+                    <TextBox Name="MinY" HorizontalAlignment="Right" Height="22" Margin="0,237,484,0" TextWrapping="Wrap" Text="-4" VerticalAlignment="Top" Width="65"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="240,237,0,0" TextWrapping="Wrap" Text="Min X" VerticalAlignment="Top" Height="21"/>
+                    <TextBox Name="MinX" HorizontalAlignment="Left" Height="21" Margin="271,237,0,0" TextWrapping="Wrap" Text="-4" VerticalAlignment="Top" Width="64" TextChanged="TextBox_TextChanged"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="338,240,0,0" TextWrapping="Wrap" Text="Max X" VerticalAlignment="Top" Height="19" Width="39"/>
+                    <TextBox Name="MaxX" HorizontalAlignment="Left" Height="19" Margin="382,239,0,0" TextWrapping="Wrap" Text="4" VerticalAlignment="Top" Width="65" RenderTransformOrigin="0.585,1.789"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="5,263,0,0" TextWrapping="Wrap" Text="f(x)" VerticalAlignment="Top" Height="20" Width="37" RenderTransformOrigin="0.392,-0.7"/>
+                    <TextBox x:Name="fx" HorizontalAlignment="Left" Height="20" Margin="47,262,0,0" TextWrapping="Wrap" Text="2x^3+5x^2" VerticalAlignment="Top" Width="512"/>
+                    <TextBox x:Name="XMoshtagh" HorizontalAlignment="Left" Height="16" Margin="47,288,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="65"/>
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Shib" VerticalAlignment="Top" Margin="10,288,0,0" Height="18" Width="37"/>
+                    <Button Content="Derived" Margin="122,288,378,5" Click="Show_Shib"/>
+                    <Button Content="Integral" HorizontalAlignment="Left" Margin="223,287,0,0" VerticalAlignment="Top" Width="74" Height="23" Click="Antegral_Click"/>
+                    <TextBox x:Name="Derivedfx" HorizontalAlignment="Left" Height="23" Margin="309,288,0,0" TextWrapping="Wrap" Text="Derived" VerticalAlignment="Top" Width="73"/>
+                    <TextBox x:Name="Integralfx" HorizontalAlignment="Left" Height="23" Margin="387,288,0,0" TextWrapping="Wrap" Text="Integral" VerticalAlignment="Top" Width="82"/>
+                    <Button Content="Print" HorizontalAlignment="Left" Margin="474,287,0,0" VerticalAlignment="Top" Width="42" Click="PrintBtn_Click"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Equations">
+                <Grid Background="#FFE5E5E5">
+                    <TextBlock x:Name="Result" HorizontalAlignment="Left" Margin="10,176,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="131" Width="554" Background="#FFCAF3F9"/>
+                    <TextBox x:Name="Solutions" HorizontalAlignment="Left" Height="137" Margin="10,34,0,0" TextWrapping="Wrap" Text="x+2y=0,2x+y=3" VerticalAlignment="Top" Width="554"/>
+                    <Button Content="Calculate" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="270" Height="19" Click="Calculate_Click"/>
+                    <Button Content="Clear" HorizontalAlignment="Left" Margin="294,10,0,0" VerticalAlignment="Top" Width="270" Height="19" Click="Clear_Equation_Click"/>
+                    <Canvas x:Name="EqCanvas" Margin="10,34,10,146" Visibility="Hidden" Width="554" Height="137" Background="White"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Taylor Series">
+                <Grid Background="#FFE5E5E5">
+                    <Button Content="Draw" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="270" Height="36" Click="Taylor_Draw"/>
+                    <Button Content="Clear" HorizontalAlignment="Left" Margin="294,10,0,0" VerticalAlignment="Top" Width="270" Height="36" Click="Button_Click"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="10,51,0,0" TextWrapping="Wrap" Text="n:" VerticalAlignment="Top" Height="20" Width="30"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="294,51,0,0" TextWrapping="Wrap" Text="x:" VerticalAlignment="Top" Height="20" Width="30"/>
+                    <TextBox x:Name="nNum" HorizontalAlignment="Left" Height="21" Margin="40,50,0,0" TextWrapping="Wrap" Text="2" VerticalAlignment="Top" Width="240"/>
+                    <TextBox x:Name="xZero" HorizontalAlignment="Left" Height="20" Margin="324,51,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="240"/>
+                    <Canvas x:Name="TaylorCanvas" HorizontalAlignment="Left" Height="208" Margin="10,99,0,0" VerticalAlignment="Top" Width="554" Background="White"/>
+                    <TextBox x:Name="Delkhah" HorizontalAlignment="Left" Height="18" Margin="40,76,0,0" TextWrapping="Wrap" Text="x^2" VerticalAlignment="Top" Width="240" TextChanged="Delkhah_TextChanged"/>
+                    <Button Content="Delkhah" HorizontalAlignment="Left" Margin="324,74,0,0" VerticalAlignment="Top" Width="240" Click="Delkhah_Click"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <Canvas x:Name="Total" Height="345" Canvas.Left="611" Canvas.Top="10" Width="137"/>
+    </Canvas>
+
+
+</Window>
