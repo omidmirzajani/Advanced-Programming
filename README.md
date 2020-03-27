@@ -8,7 +8,7 @@ Instractor: [Sauleh Eetemadi](http://sauleh.github.io/)
 # Assignments
 ## HW3 (Files and String methods)
   + [Document](https://github.com/omidmirzajani/Advanced-Programming/tree/master/Assignments/Document/HW3_fa.pdf)
-  + [Solution](https://github.com/omidmirzajani/Advanced-Programming/tree/master/Assignments/Code/HW3_fa.pdf)
+  + [Solution](https://github.com/omidmirzajani/Advanced-Programming/tree/master/Assignments/Code/A3)
 ## HW4 (Understanding a few notes in C#)
   + [Document](https://github.com/omidmirzajani/Advanced-Programming/tree/master/A2/HW3.fa.pdf)
   + [Solution](https://github.com/omidmirzajani/Advanced-Programming/tree/master/A2/A2)
